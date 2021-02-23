@@ -5,14 +5,14 @@
 </p><br>
 <p>
   2021.2.22.Mon <strong>v1.</strong><br>
-  <li>생활코딩 html강의를 따라 개인화한 예제 페이지를 작성 및 사이트 생성.</li><br>
-</p>
+  <li>생활코딩 html강의를 따라 개인화한 예제 페이지를 작성 및 사이트 생성.</li>
+</p><br>
 <p>
   2021.2.22.Mon <strong>v1.1</strong><br>
   <ul>
     <li>구글애널리틱스 방문자 트래킹 코드를 추가.<br></li>
   </ul>
-</p>
+</p><br>
 <p>
   2021.2.23.Tue <strong>v1.2</strong><br>
     <ul>
@@ -21,4 +21,4 @@
       <li>전체 페이지 semantic tags 추가</li>
       <li>전체 페이지 코드 구조화 개선 (열 맞춤)</li>
      </ul>
-</p>
+</p><br>

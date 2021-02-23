@@ -5,12 +5,14 @@ gathering personal reviews about movie, drama and other video contents.<br>
 <p>
   2021.2.22.Mon<br>
   v1.<br>
-   생활코딩 html강의를 따라 개인화한 예제 페이지를 작성 및 사이트 생성.<br>
+  <li>생활코딩 html강의를 따라 개인화한 예제 페이지를 작성 및 사이트 생성.</li><br>
 </p>
 <p>
   2021.2.22.Mon<br>
   v1.1<br>
-  <li>구글애널리틱스 방문자 트래킹 코드를 추가.<br></li>
+  <ul>
+    <li>구글애널리틱스 방문자 트래킹 코드를 추가.<br></li>
+  </ul>
 </p>
 <p>
   2021.2.23.Tue<br>
@@ -20,4 +22,5 @@ gathering personal reviews about movie, drama and other video contents.<br>
       <li>전체 페이지 디바이스 맞춤형 화면제공 추가 (meta viewport)</li>
       <li>전체 페이지 semantic tags 추가</li>
       <li>전체 페이지 코드 구조화 개선 (열 맞춤)</li>
+     </ul>
 </p>

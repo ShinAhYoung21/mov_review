@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>영상콘텐츠 리뷰</title>
-  <meta charset="UTF-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2D3M7C5PQK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <title>영상콘텐츠 리뷰</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2D3M7C5PQK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-2D3M7C5PQK');
-</script>
-</head>
-<body>
-  <button><a href="index.html">메인화면</a></button><br><br>
-  <form action="http://localhost/request.php">
-      <h2>건의사항</h2>
-      <p>
-        <label>닉네임 :
-        <input id="id_txt" type="text" name="id">
-        </label>
-      </p>
-      <p>
-        <label>비밀번호 :
-        <input id="password" type="password" name="pwd">
-        </label>
-      </p>
-      <p>
-        <label>작품제목 :
-        <input id="title" type="text" name="title">
-        </label>
-      </p>
-      <p>
-        <label>신청이유 :
-        <textarea id="proposal" name="proposal" id="" cols="50" rows="4">출연배우/감독명 을 적어주세요. 사연도 적어주시면, 제가 즐겁습니다ㅋㅋㅋㅋ 얘기 듣는걸 좋아해서요. :)</textarea>  <input type="submit">
-        </label>
-      </p>
-  </form>
+      gtag('config', 'G-2D3M7C5PQK');
+    </script>
+  </head>
+  <body>
+    <section>
+      <button><a href="index.html">메인화면</a></button><br><br>
+    </section>
+    <section>
+      <form action="http://localhost/request.php">
+          <h2>건의사항</h2>
+          <p>
+            <label>닉네임 :
+            <input id="id_txt" type="text" name="id">
+            </label>
+          </p>
+          <p>
+            <label>비밀번호 :
+            <input id="password" type="password" name="pwd">
+            </label>
+          </p>
+          <p>
+            <label>작품제목 :
+            <input id="title" type="text" name="title">
+            </label>
+          </p>
+          <p>
+            <label>신청이유 :
+            <textarea id="proposal" name="proposal" id="" cols="50" rows="4">출연배우/감독명 을 적어주세요. 사연도 적어주시면, 제가 즐겁습니다ㅋㅋㅋㅋ 얘기 듣는걸 좋아해서요. :)</textarea>  <input type="submit">
+            </label>
+          </p>
+      </form>
+    </section>
+    <section>
       리뷰를 원하는 영상 콘텐츠 의견을 보내주시면 참고하겠습니다!<br>
       제가 넷플릭스 구독중이라서, 넷플릭스 작품을 가장 먼저 리뷰할 가능성이 큽니다!
       의견 작성자분의 닉네임을 리뷰 하단에 남겨드려요! :)
-</body>
+    </section>
+  </body>
 </html>

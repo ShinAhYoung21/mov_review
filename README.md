@@ -22,3 +22,12 @@
       <li>전체 페이지 코드 구조화 개선 (열 맞춤)</li>
      </ul>
 </p><br>
+<p>
+  2021.2.24.Wed <strong>v1.3</strong><br>
+  <ul>
+    <li>index와 1,2,3,4 페이지에 doctype html 코드 추가</li>
+    <li>전체 페이지 body 내의 대분류 semantic태그를 section에서 main으로 수정</li>
+    <li>전체 페이지 footer내용 추가</li>
+    <li>일부 페이지 코드 구조화 개선 (열 맞춤)</li>
+  </ul>
+</p>

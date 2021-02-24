@@ -16,62 +16,67 @@
   </head>
   <body>
     <a href=index.html><input type="button" value="메인화면"></a>
-    <section>
-      <form action="http://localhost/vote.php">
+    <main>
+      <section>
+        <form action="http://localhost/vote.php">
+            <p>
+              <h2>어떤 작품을 먼저 리뷰할까요?</h2>
+              <select name="vote">
+                <option value="movie">M 리틀 포레스트(한국)</option>
+                <option value="movie">M 인셉션</option>
+                <option value="drama">D 반교:디텐션</option>
+              </select>
+            </p>
+            <p>
+              <h2>어떤 장르를 가장 선호하시나요?</h2>
+              <selct name="gvote">
+                <label><input type="radio" name="genre" value="rom"> 로맨스</label>
+                <label><input type="radio" name="genre" value="com"> 코미디</label>
+                <label><input type="radio" name="genre" value="thr"> 스릴러</label>
+                <label><input type="radio" name="genre" value="hor"> 호러</label>
+                <label><input type="radio" name="genre" value="dcm"> 다큐멘터리</label>
+              </select>
+            </p>
+            <p>
+              <h2>어떤 스토리를 좋아하세요? (다중 선택 가능!)</h2>
+                <label>
+                  <input type="checkbox" name="story" value="food"> 요리/음식
+                </label>
+                <label>
+                  <input type="checkbox" name="story" value="crim"> 범죄
+                </label>
+                <label>
+                  <input type="checkbox" name="story" value="act"> 액션
+                </label>
+                <label>
+                  <input type="checkbox" name="story" value="real"> 실화
+                </label>
+                <label>
+                  <input type="checkbox" name="story" value="love"> 연애
+                </label>
+                <label>
+                  <input type="checkbox" name="story" value="teen"> 학창시절
+                </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" name="sub" value="yes" checked>새 리뷰 알림을 받으시겠어요?
+              </label>
+            </p>
+              <input type="submit"><br><br>
+        </form>
+      </section>
+      <section>
         <p>
-          <h2>어떤 작품을 먼저 리뷰할까요?</h2>
-          <select name="vote">
-            <option value="movie">M 리틀 포레스트(한국)</option>
-            <option value="movie">M 인셉션</option>
-            <option value="drama">D 반교:디텐션</option>
-          </select>
+          혹시, 원하는 작품이 리스트에 없으신가요?<br>
+          <a href=advice.html><input type="button" value="건의사항"></a>으로 리뷰를 원하는 영상 콘텐츠 정보를 보내주시면,보내주시면 참고하겠습니다!<br>
+          의견 채택시, 작성자분의 닉네임을 리뷰 하단에 남겨드려요!
+          <input type="button" value="♡" onclick="alert('좋은 하루 보내세요 :)')">
         </p>
-        <p>
-          <h2>어떤 장르를 가장 선호하시나요?</h2>
-          <selct name="gvote">
-            <label><input type="radio" name="genre" value="rom"> 로맨스</label>
-            <label><input type="radio" name="genre" value="com"> 코미디</label>
-            <label><input type="radio" name="genre" value="thr"> 스릴러</label>
-            <label><input type="radio" name="genre" value="hor"> 호러</label>
-            <label><input type="radio" name="genre" value="dcm"> 다큐멘터리</label>
-          </select>
-        </p>
-        <p>
-          <h2>어떤 스토리를 좋아하세요? (다중 선택 가능!)</h2>
-            <label>
-              <input type="checkbox" name="story" value="food"> 요리/음식
-            </label>
-            <label>
-              <input type="checkbox" name="story" value="crim"> 범죄
-            </label>
-            <label>
-              <input type="checkbox" name="story" value="act"> 액션
-            </label>
-            <label>
-              <input type="checkbox" name="story" value="real"> 실화
-            </label>
-            <label>
-              <input type="checkbox" name="story" value="love"> 연애
-            </label>
-            <label>
-              <input type="checkbox" name="story" value="teen"> 학창시절
-            </label>
-        </p>
-        <p>
-          <label>
-            <input type="checkbox" name="sub" value="yes" checked>새 리뷰 알림을 받으시겠어요?
-          </label>
-        </p>
-          <input type="submit"><br><br>
-      </form>
-    </section>
-    <section>
-      <p>
-        혹시, 원하는 작품이 리스트에 없으신가요?<br>
-        <a href=advice.html><input type="button" value="건의사항"></a>으로 리뷰를 원하는 영상 콘텐츠 정보를 보내주시면,보내주시면 참고하겠습니다!<br>
-        의견 채택시, 작성자분의 닉네임을 리뷰 하단에 남겨드려요!
-        <input type="button" value="♡" onclick="alert('좋은 하루 보내세요 :)')">
-      </p>
-    </section>
+      </section>
+    </main>
+    <footer>
+      2021 shinahyo's 1st website
+    </footer>
   </body>
 </html>
